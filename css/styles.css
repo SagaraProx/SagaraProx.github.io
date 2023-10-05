@@ -14,7 +14,6 @@ body{
 
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      min-height: 50vh;
-
     }
 
     .container{
@@ -43,8 +42,9 @@ li a{
     color: #222222;
     text-transform: capitalize;
 }
-.title{
-    
+img{
+    height: auto;
+    width: auto;
 }
 .swiper-slide{
     margin-bottom: 50px;
@@ -78,6 +78,7 @@ li a{
 }
 .desktop img{
     width: 800px;
+    height: auto;
 }
 @media (max-width:991) {
     .navbar{
