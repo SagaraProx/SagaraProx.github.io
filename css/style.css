@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,800;1,200&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -93,4 +92,61 @@ button:hover{
     margin: 15px;
     text-align: center;
     font-size: 25px;
+}
+@media(max-width:550px){
+    .menu{
+        padding: 10px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .logo{
+        font-size: 25px;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    
+    #menu:checked ~  .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+
+    }
+    .header_3{
+        min-height: 0vh;
+
+    }
+    .header-conter h1{
+        font-size: 45px;
+    }
+    .header-conter{
+        padding: 100px 36px;
+
+    }
+    .header-conter p{
+        padding: 0;
+    }
+
+    .footer{
+        padding: 30px;
+        
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
 }

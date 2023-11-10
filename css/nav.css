@@ -24,6 +24,16 @@ body{
         display: flex;
         align-items: center;
 }
+.header_3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/img/compu.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 45vh;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+}
 
 .menu{
     position: absolute;
@@ -108,4 +118,61 @@ body{
     text-align: center;
     margin-left: 15px;
     
+}
+@media(max-width:550px){
+    .menu{
+        padding: 10px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .logo{
+        font-size: 25px;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    
+    #menu:checked ~  .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+
+    }
+    .header_3{
+        min-height: 0vh;
+
+    }
+    .header-conter h1{
+        font-size: 45px;
+    }
+    .header-conter{
+        padding: 100px 36px;
+
+    }
+    .header-conter p{
+        padding: 0;
+    }
+
+    .footer{
+        padding: 30px;
+        
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
 }

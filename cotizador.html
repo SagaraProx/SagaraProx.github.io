@@ -4,88 +4,232 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles_co.css">
-    <title>Página con Categorías</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="icon" type="image/png" href="favicon/red.png">
+    <link rel="stylesheet" href="css/coti.css">
+    <title>Cotizador</title>
 </head>
 <body>
-
-    <div class="categorias">
-        <div class="categoria" id="categoria1">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
-        <div class="categoria" id="categoria2">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
-        <div class="categoria" id="categoria1">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
-        <div class="categoria" id="categoria1">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
-        <div class="categoria" id="categoria1">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
-        <div class="categoria" id="categoria1">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
-        <div class="categoria" id="categoria1">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
-        <div class="categoria" id="categoria1">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
-        <div class="categoria" id="categoria1">
-            <h2>Categoría 1</h2>
-            <ul>
-                <li><a href="#">Opción 1</a></li>
-                <li><a href="#">Opción 2</a></li>
-                <li><a href="#">Opción 3</a></li>
-            </ul>
-        </div>
+    <header class="header_3">
         
+        <div class="menu container">
+            <div class="logos" style="display: flex; align-items: center;">
+            <img src="/img/telaraña.png" class="tela" style="width: 5rem;">
+            <a href="#" class="logo">SagaraProx MX</a>
+            </div>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    
+                    <li><a href="question.html">Cuestionario</a></li>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Combocapi.html">Paises</a></li>
 
-        <!-- Repite esta estructura para las otras categorías -->
+                </ul>
+            </nav>
+        </div>
 
+        <div class="header-conter container">
+            <h1>SagaraProx MX</h1>
+        </div>
+    </header>
+    <div class="cont_coti">
+            <!--1ra Categoria-->
+    
+            <div class="Quist" >
+                <div class="Kuist" >
+                   <p class="pg">Marca de Procesador  </p> <p class="m1" id="cate_1"></p>
+                </div>
+                
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest1" value="4500" id="valor1">
+                        <label for="valor1">Intel I5 12 700F</label>
+                    </div>
+                    <p>$4500</p> 
+
+                </div>
+    
+                <div class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest1" value="4000" id="valor2">
+                        <label for="valor2">Ryzen 5 5000G  </label>
+                    </div>
+                    <p>$4000</p> 
+                </div>
+    
+    
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest1" value="4300" id="valor3">
+                        <label for="valor3">Intel I7 10700F</label>
+                    </div>
+                    <p>$4300</p> 
+
+                </div>
+    
+    
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest1" value="4700" id="valor4">
+                        <label for="valor4">AMD Ryzen 9 13200H</label>
+                    </div>
+                    <p>$4700</p> 
+
+                </div>
+            </div>
+            <!-- 2 categoria-->
+            <div class="Quist" >
+                <div class="Kuist" >
+                   <p class="pg">Tarjeta Madre  </p> <p class="m1" id="cate_1"></p>
+                </div>
+                
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest2" value="4500" id="valor5">
+                        <label for="valor5">Intel I5 12 700F</label>
+                    </div>
+                    <p>$4500</p> 
+
+                </div>
+    
+                <div class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest2" value="4000" id="valor6">
+                        <label for="valor6">Ryzen 5 5000G  </label>
+                    </div>
+                    <p>$4000</p> 
+                </div>
+    
+    
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest2" value="4300" id="valor7">
+                        <label for="valor7">Intel I7 10700F</label>
+                    </div>
+                    <p>$4300</p> 
+
+                </div>
+    
+    
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest2" value="4700" id="valor8">
+                        <label for="valor8">AMD Ryzen 9 13200H</label>
+                    </div>
+                    <p>$4700</p> 
+
+                </div>
+            </div> 
+            <!--3 categoria-->
+            <div class="Quist" >
+                <div class="Kuist" >
+                   <p class="pg">Marca de Procesador  </p> <p class="m1" id="cate_1"></p>
+                </div>
+                
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest3" value="4500" id="valor9">
+                        <label for="valor9">Intel I5 12 700F</label>
+                    </div>
+                    <p>$4500</p> 
+
+                </div>
+    
+                <div class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest3" value="4000" id="valor10">
+                        <label for="valor10">Ryzen 5 5000G  </label>
+                    </div>
+                    <p>$4000</p> 
+                </div>
+    
+    
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest3" value="4300" id="valor11">
+                        <label for="valor11">Intel I7 10700F</label>
+                    </div>
+                    <p>$4300</p> 
+
+                </div>
+    
+    
+                <div  class="opc">
+                    <div class="opc_1">
+                        <input type="radio" name="quest3" value="4700" id="valor12">
+                        <label for="valor12">AMD Ryzen 9 13200H</label>
+                    </div>
+                    <p>$4700</p> 
+
+                </div>
+            </div> 
+            <!--Cuarta -->
+            <div class="Quist">
+                <div class="Kuist" >
+                    <p class="pg">Disipador de Memoria   </p> <p class="m1" id="cate_1"></p>
+                 </div>
+                <label for="option1">
+                    <input type="checkbox" id="valor13" name="quest4" value="2000">
+                    Cpu Cooler MASTER $2000
+                </label>
+                <br>
+        
+                <label for="option2">
+                    <input type="checkbox" id="valor14" name="quest4_1" value="6000">
+                    Enfriamiento liquido $6000
+                </label>
+                <br>
+                <label for="option2">
+                    <input type="checkbox" id="valor14" name="quest4_2" value="8000">
+                    Enfriamiento Aicete $8000
+                </label>
+                <br>
+
+            </div>
+
+             
     </div>
+    <!--resulatdos-->
+    <div class="Rels">
+        <div  class="resla" >
+            <p id="txtcalif">Sacaste en total:</p>
+        </div>
+    </div>
+    <!--Botones-->
+
+    <p>
+        <button class="btn_c" id="cotizar" onclick="calcular()">Cotizar</button>
+    </p>
+    <!--fin btn-->
+
+
+    <footer class="footer" style="align-items: center;">
+        <div style="align-items: center; display: flex; text-align: center;  margin-left: 50px; "> 
+             <img src="/img/telaraña.png" class="tela" style="width: 3rem;">
+            <p>
+            Copyright © RedStone 2023
+            </p>
+
+        </div>
+    </footer>
+
+    <script>
+        function calcular(){
+            let respuesta1 = document.querySelector('input[name="quest1"]:checked').value;
+            let respuesta2 = document.querySelector('input[name="quest2"]:checked').value;
+            let respuesta3 = document.querySelector('input[name="quest3"]:checked').value;
+            let respuesta4 = document.querySelector('input[name="quest4"]:checked').value;
+            let respuesta4_1 = document.querySelector('input[name="quest4_1"]:checked').value;
+            
+            let resultado = parseInt(respuesta1) +  parseInt(respuesta2) + parseInt(respuesta3)+ parseInt(respuesta4)+ parseInt(respuesta4_1);
+            txtcalif.innerText=" Sacaste en total: "+ resultado + "" + "/" + "10";
+        }
+
+    </script>
 
 </body>
 </html>
