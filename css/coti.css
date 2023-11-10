@@ -3,11 +3,11 @@
     align-items: center;
     margin: auto;
     border: 4px solid;
-    
+    /*
     display: flex;
     gap: 15px;
     padding-left: 10px;
-    
+    */
 }
 .opc{
     display: flex;
@@ -18,7 +18,7 @@
     
 }
 .Quist{
-    width: 32%;
+    width: 38%;
     border: solid 4px;
     font-size: 20px;
 }
